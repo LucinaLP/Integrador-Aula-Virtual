@@ -85,7 +85,7 @@ function total()
   
   cant = Math.round( cant * document.getElementById('categoria').value *200);
  
-  document.getElementById("total").value = (`Total a pagar $ ${cant}`);
+  document.getElementById("total").value = (`Total a pagar: $${cant}`);
 
 }
 
